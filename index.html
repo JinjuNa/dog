@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>입양하기</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Stylish&display=swap');
+
+		*{
+			margin:0;
+			padding:0;
+		}
+
+		ul{
+			list-style: none;
+		}
+
+		a{
+			color:inherit;
+			text-decoration: none;
+		}
+
+		body{
+			font-family: 'Stylish', sans-serif;
+		}
+
+		.headerwrap{
+			width:800px;
+			margin: 0 auto;
+			height: 150px;
+			background-color: #f46075;
+			background-image: url("./dog.png");
+			background-repeat: no-repeat;
+			background-position:right center;
+			background-size:auto 150px;
+			position:relative;
+
+		}
+
+		h1{
+			padding-left:300px;
+			padding-top:50px;
+		}
+
+		.gnb{
+			position:absolute;
+			bottom:10px;
+			left:50px;
+		}
+
+		.gnb li{
+			display: inline-block;
+			text-align: center;
+			border-radius: 100%;
+			background-color: lightpink;
+			font-size:20px;
+			margin:0 10px;
+			border:white;
+			width:100px;
+		}
+
+		.gnb li:hover{
+			color: #f46075;
+			background-color:rgba(0,10,10,0.5);
+			transition:all 0.2s;
+		}
+
+		/*.mainbn{
+			background-image: url(./mainbn.jpg);
+			width:100%;
+			height:600px;
+			background-size:100% auto;*/
+
+		.mainbn{
+			background-color: rgba(0,100,0,0.2);
+			
+		}
+		
+		.mainwrap{
+			width:800px;
+			margin: 0 auto;
+			padding:10px;
+			position:relative;
+			
+
+		}
+		.mainbn .box{
+			color:#333;
+			width:200px;
+			display: inline-block;
+			border: 5px solid #fff;
+			height:220px;
+			padding:10px;
+			margin:5px;
+			box-sizing: border-box;
+			border-radius: 5px;
+		}
+
+		.mainbn .box:nth-child(1){
+			background-color:rgba(100,100,100,0.5);
+		}
+
+		.mainbn .box:nth-child(2){
+			background-color:rgba(0,100,100,0.5);
+		}
+
+		.mainbn .box:nth-child(3){
+			background-color:rgba(100,0,100,0.5);
+		}
+
+		.mainbn .box:nth-child(4){
+			background-color:rgba(100,100,0,0.5);
+		}
+
+		.mainbn .box:nth-child(5){
+			background-color:rgba(100,0,0,0.5);
+		}
+
+		.mainbn .box:nth-child(6){
+			background-color:rgba(0,100,0,0.5);
+		}
+
+		.mainbn .box:hover{
+			background-color: rgba(0,100,0,0);
+			transition:all 0.1s;
+			border:5px solid #011;
+		}
+
+		.box h3{
+			text-align: center;
+			color:#000;
+		}
+
+		aside{
+			background-color: pink;
+			border: 5px solid #ccc;
+			display: block;
+			width:15%;
+			text-align: center;
+			padding:5px;
+			position:absolute;
+			top:20px;
+			right:20px;
+			border-radius: 10px;
+			
+		}
+
+		aside ul li{
+			margin-bottom:10px;
+
+		}
+
+		aside ul li:last-child{
+			margin-bottom: 0;
+		}
+
+		aside ul li:hover{
+			color:white;
+			background-color:lightpink;
+		}
+
+		.banner{
+			background-image: url("./mainbn.jpg");
+			width:800px;
+			height:400px;
+			background-repeat: no-repeat;
+			background-size: 100% auto;
+			background-position:center center;
+			margin: 0 auto;
+		}
+
+	</style>
+
+
+</head>
+<body>
+ 	<div class="wrap">
+ 		<header>
+ 			<div class="headerwrap">
+ 				<h1><a href="#">강아지 입양</a></h1>
+ 				<nav class="gnb">
+ 					<li><a href="#">애완견 종류</a></li>
+ 					<li><a href="#">입양하기</a></li>
+ 					<li><a href="#">건강돌보기</a></li>
+ 					<li><a href="#">더불어 살기</a></li>
+ 				</nav>
+ 				
+ 			</div>
+
+
+ 		</header>
+
+ 		<section class="mainbn">
+ 			<div class="mainwrap">
+ 			<div class="box">
+ 				<h3>강아지 집</h3>
+ 				<p>강아지가 편히 쉴 수 있는 포근한 집이 필요합니다. 강아지의 집은 강아지가 다 큰 후에도 계속 쓸 수 있는 집으로 구입하세요.</p>
+ 			</div>
+
+ 			<div class="box">
+ 				<h3>강아지 집</h3>
+ 				<p>강아지가 편히 쉴 수 있는 포근한 집이 필요합니다. 강아지의 집은 강아지가 다 큰 후에도 계속 쓸 수 있는 집으로 구입하세요.</p>
+ 			</div>
+
+ 			<div class="box">
+ 				<h3>강아지 집</h3>
+ 				<p>강아지가 편히 쉴 수 있는 포근한 집이 필요합니다. 강아지의 집은 강아지가 다 큰 후에도 계속 쓸 수 있는 집으로 구입하세요.</p>
+ 			</div>
+
+ 			<div class="box">
+ 				<h3>강아지 집</h3>
+ 				<p>강아지가 편히 쉴 수 있는 포근한 집이 필요합니다. 강아지의 집은 강아지가 다 큰 후에도 계속 쓸 수 있는 집으로 구입하세요.</p>
+ 			</div>
+
+ 			<div class="box">
+ 				<h3>강아지 집</h3>
+ 				<p>강아지가 편히 쉴 수 있는 포근한 집이 필요합니다. 강아지의 집은 강아지가 다 큰 후에도 계속 쓸 수 있는 집으로 구입하세요.</p>
+ 			</div>
+
+ 			<div class="box">
+ 				<h3>강아지 집</h3>
+ 				<p>강아지가 편히 쉴 수 있는 포근한 집이 필요합니다. 강아지의 집은 강아지가 다 큰 후에도 계속 쓸 수 있는 집으로 구입하세요.</p>
+ 			</div>
+
+ 			<aside>
+ 			<ul>
+ 				<li><a href="#">My 메뉴</a></li>
+ 				<li><a href="#">지역찾기</a></li>
+ 				<li><a href="#">후원하기</a></li>
+ 				<li><a href="#">회사소개</a></li>
+ 				<li><a href="#">My 메뉴</a></li>
+ 				<li><a href="#">지역찾기</a></li>
+ 				<li><a href="#">후원하기</a></li>
+ 				<li><a href="#">회사소개</a></li>
+ 				<li><a href="#">My 메뉴</a></li>
+ 				<li><a href="#">지역찾기</a></li>
+ 				<li><a href="#">후원하기</a></li>
+ 				<li><a href="#">회사소개</a></li>
+ 			</ul>
+ 			</div>
+
+ 			
+
+ 		</aside>
+ 		</section>
+
+ 		<section class=banner>
+ 		</section>
+
+ 		
+
+ 	</div>
+</body>
+</html>
